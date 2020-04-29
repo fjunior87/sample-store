@@ -1,0 +1,16 @@
+id:
+  providerName: admin
+  apiName: SampleStore
+  version: 1.0.0
+description: This is a sample server online store from apictl
+type: HTTP
+context: /SampleStore
+contextTemplate: /SampleStore/{version}
+availableTiers:
+- name: Unlimited
+- name: Bronze
+status: published
+visibility: public
+transports: http,https
+productionUrl: http://localhost:8080
+sandboxUrl: http://localhost:8081
